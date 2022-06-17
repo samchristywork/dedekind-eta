@@ -22,11 +22,12 @@ double complex dedekind(double r, double i, int iterations) {
 
 void usage(char *argv[]) {
   fprintf(stderr,
-          "Usage: %s [-n iterations] [-w width] [-h height] [-o outFile]\n"
+          "Usage: %s [-n iterations] [-x width] [-y height] [-o outFile]\n"
           " -n\tNumber of iterations.\n"
-          " -w\tImage width.\n"
-          " -h\tImage height.\n"
+          " -x\tImage width.\n"
+          " -y\tImage height.\n"
           " -o\tOutput file.\n"
+          " -h\tPrint this usage message.\n"
           "",
           argv[0]);
   exit(EXIT_FAILURE);
