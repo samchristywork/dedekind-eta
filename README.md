@@ -15,16 +15,16 @@ Theorem. The theorem, which was proven in 1994 (358 years after the problem was
 first stated), is closely related to modular forms through the Taniyama-Shimura
 conjecture. This conjecture suggested another link between two areas of
 mathematics: elliptic curves and modular forms. Before getting too far ahead
-into modular forms though, it is important to me to establish a basis in modular
-arithmetic.
+into modular forms though, it is important to me to establish a basis in
+modular arithmetic.
 
 Modular arithmetic is something almost all programmers are familiar with.
 Non-programmers might call this "clock arithmetic" or remainder arithmetic. A
-system is modular basically any time you can return a value to its initial state
-using only addition operations. Modular arithmetic and periodicity are highly
-related, and modular arithmetic is also highly related to complex analysis
-through Euler's formula which reveals the surprising link between complex
-numbers and trigonometry.
+system is modular basically any time you can return a value to its initial
+state using only addition operations. Modular arithmetic and periodicity are
+highly related, and modular arithmetic is also highly related to complex
+analysis through Euler's formula which reveals the surprising link between
+complex numbers and trigonometry.
 
 The field of modular forms is a consequence of applying a particular symmetry
 condition to functions in the complex domain that obey the rules of modular
@@ -32,13 +32,13 @@ arithmetic. This program is concerned with a particular kind of modular form
 called the Dedekind eta function. More information about modular forms and the
 Dedekind eta function can be found on Wikipedia.
 
-The main thing that one needs to know about this function in order to understand
-the code in this repository is the following formula:
+The main thing that one needs to know about this function in order to
+understand the code in this repository is the following formula:
 
 <p align="center">
-<img alt="Dedekind Eta Formula" style="width:500px; margin-left:auto; margin-right:auto; display:block;text-align:center" src="./res/dedekind_eta_formula.png">
+  <img alt="Dedekind Eta Formula" src="./res/dedekind_eta_formula.png">
 <p>
-  
+
 As for writing the actual program, that was pretty easy after I spent some time
 learning about the complex number facilities in C. It turns out, there are a
 number of functions in `complex.h`, the details of which can be found in
@@ -83,8 +83,8 @@ the unusual order of blue, green, red, alpha instead of red, green, blue,
 alpha.
 
 I made an artistic decision to have the real part be the blue channel, the
-imaginary part be the green channel, and left the red channel as zero. There are
-likely other ways to style the output for even better results.
+imaginary part be the green channel, and left the red channel as zero. There
+are likely other ways to style the output for even better results.
 
 ## Dependencies
 
