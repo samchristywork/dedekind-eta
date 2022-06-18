@@ -1,5 +1,9 @@
 ![Banner](https://s-christy.com/status-banner-service/dedekind-eta/banner-slim.svg)
 
+<p align="center">
+  <img src="./example/sample.png" width="500" />
+</p>
+
 ## Overview
 
 One of the most important problems in mathematics is the effort to find the
