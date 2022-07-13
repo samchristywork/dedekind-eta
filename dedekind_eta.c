@@ -40,6 +40,11 @@ int main(int argc, char *argv[]) {
   int width = 100;
   int height = 100;
 
+  float scaleX = .1;
+  float scaleY = .1;
+  float offsetX = 0;
+  float offsetY = 0;
+
   FILE *outFile = stdout;
 
   /*
@@ -84,7 +89,8 @@ int main(int argc, char *argv[]) {
   for (int y = 0; y < height; y++) {
     for (int x = 0; x < width; x++) {
       double complex f =
-          dedekind((float)x / width / 10., (float)y / height / 10., iterations);
+          dedekind((float)(x + offsetX) / width * scaleX,
+                   (float)(y + offsetY) / height * scaleY, iterations);
       p[(x + y * width) * 4 + 0] = creal(f) * 255;
       p[(x + y * width) * 4 + 1] = cimag(f) * 255;
       p[(x + y * width) * 4 + 2] = 0;
