@@ -1,5 +1,4 @@
 CC := gcc
-
 LIBS := -lm
 
 all: build/dedekind_eta
