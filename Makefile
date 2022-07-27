@@ -10,8 +10,8 @@ build/dedekind_eta: dedekind_eta.c
 example: build/example.tga
 
 build/example.tga: build/dedekind_eta
-	./build/dedekind_eta -x 1000 -y 1000 -n 10 > build/example.tga
-	convert build/example.tga build/example.png
+	$^ -x 1000 -y 1000 -n 10 > build/example.tga
+	convert $@ build/example.png
 
 clean:
 	rm -rf build/
