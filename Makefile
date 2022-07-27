@@ -15,3 +15,5 @@ build/example.tga: build/dedekind_eta
 
 clean:
 	rm -rf build/
+
+.PHONY: clean example
