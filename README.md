@@ -6,32 +6,31 @@
 
 ## Overview
 
-One of the most important problems in mathematics is the effort to find the
-relations between the individual disciplines. As it stands, there are some
-branches of mathematics that are completely isolated from the others.
-Researchers are searching for (and finding!) bridges between the disparate
-fields of math and many believe that the ultimate fate is to find some unifying
-theory of mathematics: The same project that physicists are trying to complete
-in their own discipline.
+One of the greatest problems in mathematics is the effort to find the relations
+between the individual disciplines. As it stands, some branches of mathematics
+are completely isolated from others. Researchers are searching for (and
+finding!) bridges between the disparate fields of math, and many believe that
+the ultimate fate is to find some unifying theory of mathematics: the same
+project that physicists are trying to complete in their own discipline.
 
-One of the important bridges linking mathematics together is Fermat's Last
+One of the critical bridges linking mathematics together is Fermat's Last
 Theorem. The theorem, which was proven in 1994 (358 years after the problem was
 first stated), is closely related to modular forms through the Taniyama-Shimura
 conjecture. This conjecture suggested another link between two areas of
 mathematics: elliptic curves and modular forms. Before getting too far ahead
-into modular forms though, it is important to me to establish a basis in
-modular arithmetic.
+into modular forms though, it is important to me to establish a basis in modular
+arithmetic.
 
 Modular arithmetic is something almost all programmers are familiar with.
 Non-programmers might call this "clock arithmetic" or remainder arithmetic. A
 system is modular basically any time you can return a value to its initial
 state using only addition operations. Modular arithmetic and periodicity are
 highly related, and modular arithmetic is also highly related to complex
-analysis through Euler's formula which reveals the surprising link between
+analysis through Euler's formula, which reveals the surprising link between
 complex numbers and trigonometry.
 
 The field of modular forms is a consequence of applying a particular symmetry
-condition to functions in the complex domain that obey the rules of modular
+condition to functions in the complex domain that obeys the rules of modular
 arithmetic. This program is concerned with a particular kind of modular form
 called the Dedekind eta function. More information about modular forms and the
 Dedekind eta function can be found on Wikipedia.
@@ -95,7 +94,7 @@ are likely other ways to style the output for even better results.
 ```
 gcc
 make
-an image viewer that can handle .tga files.
+an image viewer or conversion utility that can handle .tga files.
 ```
 
 ## License
