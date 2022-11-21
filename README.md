@@ -51,6 +51,15 @@ anticipate the amount of processing power the images would require to generate.
 I'm used to image generation being practically instantaneous, but these images
 actually take some time to render.
 
+## Features
+
+- Generate TGA visualizations of the Dedekind eta function
+- Tunable input parameters like size and number of iterations
+- Conversion to PNG or animated GIF is available with ImageMagick installed
+- Example of complex number arithmetic in C
+- Example of numerical methods in C
+- Sample output material in the `example` directory
+
 ## Usage
 
 Here is the usage message that this program prints out. It is relatively
@@ -61,7 +70,7 @@ compromise, therefore, `-n` is used to specify how many iterations will be
 evaluated.
 
 ```
-Usage: ./build/dedekind_eta [-n iterations] [-x width] [-y height] [-o outFile]
+Usage: ./dedekind_eta [-n iterations] [-x width] [-y height] [-o outFile]
  -n     Number of iterations.
  -x     Image width.
  -y     Image height.
