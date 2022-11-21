@@ -94,6 +94,7 @@ are likely other ways to style the output for even better results.
 ```
 gcc
 make
+imagemagick // To produce examples
 an image viewer or conversion utility that can handle .tga files.
 ```
 
