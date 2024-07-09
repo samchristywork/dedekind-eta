@@ -1,4 +1,4 @@
-![Banner](https://s-christy.com/status-banner-service/dedekind-eta/banner-slim.svg)
+![Banner](https://s-christy.com/sbs/status-banner.svg?icon=editor/functions&hue=200&title=Dedekind%20Eta&description=Generating%20plots%20of%20complex%20functions%20is%20easy%20with%20TGA%21)
 
 <p align="center">
   <img src="./example/sample.png" width="500" />
